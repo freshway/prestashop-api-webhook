@@ -11,7 +11,7 @@ https://devdocs.prestashop.com/1.7/modules/concepts/hooks/list-of-hooks/
 
 # How does it work?
 
-Gets an event when a product is added, modified or delimited.
+Gets an event when a product is added, modified or removed.
 
 save the event in a queue in the database and with a Job Cron Send the data to the endpoint.
 
